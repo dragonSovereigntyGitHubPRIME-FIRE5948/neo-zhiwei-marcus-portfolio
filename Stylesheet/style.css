@@ -1,0 +1,222 @@
+/* Adobe Fonts */
+/* font-family: kokuryu, sans-serif;
+font-style: normal;
+font-weight: 400; */
+
+/* font-family: shinryu, sans-serif;
+font-style: normal;
+font-weight: 400; */
+
+:root {
+    --light: #E3DFDA;
+    --navy: #3E4554;
+    --maroon: #BB462F;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+/* Body */
+body {
+    font-family: kokuryu, sans-serif;
+    font-size: 1rem;
+    color: var(--navy);
+}
+
+
+.project-buttons {
+    width: 70%;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: var(--navy);
+    height: 11%;
+}
+
+.nav-logo {
+    width: 5%;
+}
+
+.nav-item {
+    font-size: 3vh;
+    font-family: shinryu, sans-serif;
+}
+
+.nav-link {
+    color: var(--light);
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Backgrounds */
+.index-bg {
+    background-image: url('/Images/index_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+}
+
+.portfolio-bg {
+    /* background-image: url('/Images/index_bg.png'); */
+    background-color: var(--light);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+}
+
+/* ********** */
+/* 1. Index Page */
+/* ********** */
+
+.index-hero {
+    width: 35%;
+    position: absolute;
+    right: 35%;
+    bottom: 0%;
+}
+
+/* ********** */
+/* 2. Portfolios Page */
+/* ********** */
+.filter-btn {
+    font-size: 2.5vh;
+    background-color: transparent;
+    border: transparent;
+}
+.filter-active {
+    border: 2px var(--navy) solid
+}
+
+
+.portfolio-kanji {
+    width: 80%;
+}
+
+.portfolio {
+    width: 75%;
+}
+
+.portfolio-title {
+    font-size: 3.3vh;
+    color: var(--maroon);
+}
+/* .portfolio-desc {
+    width: 90%;
+} */
+
+
+
+
+.portfolios-showcase>p {
+    font-size: 2.5vh;
+    margin-top: 5px;
+}
+
+/* ********** */
+/* 2A. Individual Pages Pages */
+/* ********** */
+
+/* Section 1 */
+.project-img {
+    height: 100%;
+    width: 90%;
+}
+
+.project-title {
+    font-size: 4.5vw;
+}
+.project-title-stamp {
+    width: 2.3vw;
+    margin-left: 15px;
+}
+
+.project-subtitle {
+    color: var(--maroon);
+    font-size: 1vw;
+    margin-bottom: -10px;
+}
+.project-subtitle-icon {
+    width: 20px;
+}
+
+.project-desc {
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.project-desc-bg {
+    width: 20%;
+    position: absolute;
+    bottom: 26%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.readmore-txt {
+    color: var(--maroon);
+    font-size: 22px;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-content: center;
+    justify-content: center;
+    /* margin-top: 30px; */
+}
+.readmore-txt-icon {
+    height:22px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+/* Section 2 */
+.flower-bulletpoint {
+    height: 7vh;
+}
+
+.project-pg-header {
+    font-size: 9vh;
+    color: var(--maroon);
+}
+
+.case-study {
+    width: 80%;
+    margin-top: 30px;
+}
+.case-study-bg {
+    width: 20%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.brush-divider-container {
+    position: absolute;
+    left: 47%;
+    top: 13%;
+}
+.brush-divider {
+    width: 3.7vh;
+}
+
+
+
+.test {
+    background-color: white;
+}
+
+.test2 {
+    background-color: yellow;
+}
